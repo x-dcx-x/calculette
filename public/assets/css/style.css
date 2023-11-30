@@ -36,6 +36,13 @@ html {
     width: 45rem;
     background-color: azure;
 }
+#screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    height:19.5rem;
+}
 
 button{
     flex-direction: row;
