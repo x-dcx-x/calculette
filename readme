@@ -2,4 +2,14 @@
 
 Que faut t il : Interface :
 
-1)
+1) une interface de type écran avec des touches 16 touches aux minimum
+ interface rudimentaire
+
+ Js :
+
+ est t'il possible de capturer l'entrer du user
+                    de capturer ca variable (+,-,x,/) et ensuite de
+                    de capturer ca seconde entrée
+                    puis d executer un résulat ?
+
+ Faut t il
