@@ -21,7 +21,7 @@ html {
     align-items: center;
     justify-content:center;
     flex-direction: column;
-    width: 40rem;
+    width: 55rem;
     border: black solid;
     padding-bottom: 2rem;
     border-radius: 18px;
@@ -31,10 +31,10 @@ html {
 #ecran{
     border: black solid;
     border-radius: 15px;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
-    height: 15rem;
-    width: 35rem;
+    height: 20rem;
+    width: 45rem;
     background-color: azure;
 }
 
@@ -44,9 +44,9 @@ button{
     justify-content: center;
     align-content: center;
     align-items: center;
-    border-radius: 10px;
-    height: 6rem;
-    width: 6rem;
+    border-radius: 35px;
+    height: 7rem;
+    width: 10rem;
     background-color: aqua;
     border: black solid;
     margin-left: 2rem;
