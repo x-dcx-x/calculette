@@ -10,18 +10,14 @@ html {
 
 body{
     display: flex;
-    justify-content: center;
+    justify-content:center;
+
 }
 
 #button{
     display: flex;
-    justify-content: space-between;
-    justify-items:center;
-    height: 0.5rem;
-    width: 5rem;
+    justify-content:space-between;
+
 }
 
-/*#4{*/
-/*    height: 5rem;*/
-/*    width: 5rem;*/
-/*}*/
+
