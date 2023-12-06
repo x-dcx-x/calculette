@@ -14,6 +14,22 @@ Que faut t il : Interface :
 
                   ? fonction native de Js : dataoperande ? certainement pour avoir plus simple !
 
+ recuperate  les element les number, les opération + -*/ = etc...
+le user fait un clic sur les bouton "numbers" creer un adeventlister "click" pour capturer la demande
+puis le user cliquera sur sont opération +-*/ si non rien ne ce passe ( a créer )
+puis il cliquera denouveau sur "number"
+puis il aura sont résultat
+
+clic de user === a affichage écran
+
+que faut t il ?
+
+ condition ?
+ fonction certainement
+ adeventlistener
+
+
+
  Récuperer les touches avec getElementBy id
  et indiquant les chiffres et les sigles  en HTML
 

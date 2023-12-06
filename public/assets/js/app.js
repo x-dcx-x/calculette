@@ -1,20 +1,33 @@
-let fleche = document.getElementById("<-");
-let sept  = document.getElementById("7");
-let huit = document.getElementById("8");
-let neuf = document.getElementById("9");
-let divise = document.getElementById("/");
-let quatre = document.getElementById("4");
-let cinq = document.getElementById("5");
-let six = document.getElementById("6");
-let tiret= document.getElementById("-");
-let one = document.getElementById("1");
-let deux= document.getElementById("2");
-let trois = document.getElementById("3");
-let plus = document.getElementById("+");
-let plusoumoin = document.getElementById("+/-");
-let zero = document.getElementById("0");
-let virg = document.getElementById(",");
+let reset = document.getElementById("reset");
+let virg = document.getElementById("dot");
 let egal = document.getElementById("=");
 let screen = document.getElementById("screen");
+let number=document.getElementsByClassName("number")
+let operande=document.getElementsByClassName("operande")
+
+virg.addEventListener("click",function (){
+    screen.innerHTML += virg.innerHTML;
+})
+
+egal.addEventListener('click', function () {
+    screen.innerHTML = eval(screen.innerHTML);
+})
+reset.addEventListener("click", function (){
+    screen.innerHTML="";
+})
+
+for ( let button of number) {
+    button.addEventListener('click', function () {
+        let dataNumber = button.innerHTML;
+        screen.innerHTML += dataNumber;
+    })
+}
+
+for (let button of operande){
+    button.addEventListener("click",function (){
+        let dataoperande=button.innerHTML;
+        screen.innerHTML += dataoperande;
+    })
+}
 
 
